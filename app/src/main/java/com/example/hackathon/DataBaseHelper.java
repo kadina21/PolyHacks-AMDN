@@ -23,9 +23,9 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
 
         String scammers = "CREATE TABLE "+ SCAMMERS_TABLE +"(PHONE_NUMBER VARCHAR(20))";
-        String clients = "CREATE TABLE " + CLIENTS_TABLE +"(ID INTEGER PRIMARY KEY AUTOINCREMENT, FIRST_NAME TEXT, LAST_NAME TEXT, PHONE_NUMBER CHAR(20)  )";
-        String calls = " CREATE TABLE " + CALLS_TABLE +"(ID INTEGER)";
-        String sms = " CREATE TABLE " + SMS_TABLE +"(ID INTEGER)";
+        String clients = "CREATE TABLE " + CLIENTS_TABLE +"(ID INTEGER PRIMARY KEY AUTOINCREMENT, FIRST_NAME TEXT, LAST_NAME TEXT, PHONE_NUMBER CHAR(20), PASSWORD TEXT)";
+        String calls = " CREATE TABLE " + CALLS_TABLE +"(ID INTEGER, DATE TEXT ,ISSCAMMER BOOLEAN, CALLING_PERSON_NUMBER VARCHAR(20))";
+        String sms = " CREATE TABLE " + SMS_TABLE +"(ID INTEGER, DATE TEXT,  ISSCAMMER BOOLEAN, SENDING_PERSON_NUMBER VARCHAR(20))";
 
         db.execSQL(scammers);
         db.execSQL(clients);
