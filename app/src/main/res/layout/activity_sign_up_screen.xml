@@ -70,7 +70,7 @@
 
     <TextView
         android:id="@+id/mdpInscription"
-        android:layout_width="wrap_content"
+        android:layout_width="203dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -78,7 +78,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="283dp"
-        android:layout_marginEnd="226dp"
+        android:layout_marginEnd="108dp"
         android:text="Mot de passe" />
 
 
@@ -143,23 +143,23 @@
         android:hint="Mot de passe"
         android:inputType="textPassword" />
 
+
     <TextView
         android:id="@+id/prenomInscription"
-        android:layout_width="wrap_content"
+        android:layout_width="59dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="102dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="262dp"
+        android:layout_marginEnd="250dp"
         android:text="Prénom" />
-
 
     <TextView
         android:id="@+id/numeroInscription"
-        android:layout_width="wrap_content"
+        android:layout_width="68dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -167,7 +167,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="210dp"
-        android:layout_marginEnd="261dp"
+        android:layout_marginEnd="243dp"
         android:text="Numéro" />
 
     <EditText
