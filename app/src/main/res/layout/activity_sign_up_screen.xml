@@ -7,37 +7,6 @@
     tools:context=".MainActivity"
     android:background="@drawable/gradient">
 
-    <EditText
-        android:id="@+id/enterNumeroContact2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/numeroContactConfiance"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="0dp"
-        android:ems="10"
-        android:hint="Numéro"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/enterLienParente2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/lienDeParente"
-        android:ems="10"
-        android:hint="Lien de parenté"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/entreNomContact2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/nomContactInscription"
-        android:layout_centerHorizontal="true"
-        android:ems="10"
-        android:hint="Nom du contact"
-        android:inputType="" />
-
     <TextView
         android:layout_width="230dp"
         android:layout_height="1dp"
@@ -45,7 +14,7 @@
         android:layout_below="@+id/btnInscription"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="90dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/box" />
 
 
@@ -65,20 +34,20 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="150dp"
         android:text="Nom" />
 
     <TextView
         android:id="@+id/mdpInscription"
-        android:layout_width="wrap_content"
+        android:layout_width="201dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="283dp"
-        android:layout_marginEnd="226dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="110dp"
         android:text="Mot de passe" />
 
 
@@ -91,7 +60,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="170dp"
         android:layout_marginEnd="101dp"
         android:ems="10"
         android:hint="Nom"
@@ -102,9 +71,9 @@
         android:id="@+id/btnInscription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/enterNumeroContact2"
+        android:layout_below="@+id/enterMDPInscription"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:scaleX="1"
         android:scaleY="1"
         android:text="S'inscrire" />
@@ -116,7 +85,7 @@
         android:layout_below="@+id/barre"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="150dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:text="Déjà inscrit ?" />
 
     <Button
@@ -125,7 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/dejaInscrit"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:text="Se connecter" />
 
     <EditText
@@ -145,29 +114,29 @@
 
     <TextView
         android:id="@+id/prenomInscription"
-        android:layout_width="wrap_content"
+        android:layout_width="158dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="262dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="153dp"
         android:text="Prénom" />
 
 
     <TextView
         android:id="@+id/numeroInscription"
-        android:layout_width="wrap_content"
+        android:layout_width="179dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginEnd="261dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="132dp"
         android:text="Numéro" />
 
     <EditText
@@ -179,7 +148,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="101dp"
         android:ems="10"
         android:hint="Prénom"
@@ -194,36 +163,11 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="250dp"
         android:layout_marginEnd="101dp"
         android:ems="10"
         android:hint="Numéro"
         android:inputType="textPersonName" />
-
-    <TextView
-        android:id="@+id/nomContactInscription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/enterMDPInscription"
-        android:layout_marginLeft="100dp"
-
-        android:text="Nom du contact de confiance" />
-
-    <TextView
-        android:id="@+id/lienDeParente"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/entreNomContact2"
-        android:layout_marginLeft="100dp"
-        android:text="Lien de parenté" />
-
-    <TextView
-        android:id="@+id/numeroContactConfiance"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/enterLienParente2"
-        android:layout_marginLeft="100dp"
-        android:text="Numéro du contact de confiance" />
 
 
 </RelativeLayout>

@@ -30,9 +30,6 @@ public class activity_sign_up extends AppCompatActivity {
         enterLastName.findViewById(R.id.enterLastName);
         enterNumeroInscription.findViewById(R.id.enterNumeroInscription);
         enterMDPInscription.findViewById(R.id.enterMDPInscription);
-        entreNomContact2.findViewById(R.id.entreNomContact2);
-        enterLienParente2.findViewById(R.id.enterLienParente2);
-        enterNumeroContact2.findViewById(R.id.enterNumeroContact2);
         btnInscription.findViewById(R.id.btnInscription);
         btnDejaInscrit.findViewById(R.id.btnDejaInscrit);
         db=new DataBaseHelper(activity_sign_up.this);
