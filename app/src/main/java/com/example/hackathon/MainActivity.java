@@ -8,7 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,19 +19,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_sign_up_screen);
-        Button btn = findViewById(R.id.btnDejaInscrit);
-        Button login = findViewById(R.id.btnInscription);
-        btn.setOnClickListener(new View.OnClickListener() {
+        Button btnLogin = findViewById(R.id.btnDejaInscrit);
+        Button btnSignUp = findViewById(R.id.btnInscription);
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity2();
             }
         });
-        login.setOnClickListener(new View.OnClickListener() {
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivity3();
-
+                openActivity2();
             }
         });
     }

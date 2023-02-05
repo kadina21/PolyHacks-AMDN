@@ -24,7 +24,7 @@ public class activity_sign_up extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_screen);
+        setContentView(R.layout.activity_sign_up_screen);
 
         enterFirstName.findViewById(R.id.enterFirstName);
         enterLastName.findViewById(R.id.enterLastName);
@@ -37,16 +37,17 @@ public class activity_sign_up extends AppCompatActivity {
         btnInscription.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SignupModel sm;
+                /*SignupModel sm;
 
                 try {
                     sm=new SignupModel(enterFirstName.getText().toString(),enterLastName.getText().toString(),enterNumeroInscription.getText().toString(),enterMDPInscription.getText().toString(),enterNumeroContact2.getText().toString(),entreNomContact2.getText().toString(),enterLienParente2.getText().toString());
                 }catch (Exception e){
                     e.printStackTrace();
                     sm = new SignupModel("error", "error", "error", "error", "error", "error", "error");
-                }
+                }*/
                 //DataBaseHelper dataBaseHelper = new DataBaseHelper(activity_sign_up.this);
-                db.signup(sm);
+                //db.signup(sm);
+                openActivity2();
             }
         });
 
