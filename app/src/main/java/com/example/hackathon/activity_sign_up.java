@@ -23,7 +23,7 @@ public class activity_sign_up extends AppCompatActivity {
     }
 
     public void openActivity2() {
-        Intent intent = new Intent(this, CellphonePages.class);
+        Intent intent = new Intent(this, PageDina.class);
         startActivity(intent);
     }
 }

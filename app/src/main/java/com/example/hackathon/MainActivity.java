@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_login_screen);
         Button btn = findViewById(R.id.loginBut);
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button login = findViewById(R.id.SignUp);
+        Button login = findViewById(R.id.SignUp);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openActivity3() {
-        Intent intent = new Intent(this, CellphonePages.class);
+        Intent intent = new Intent(this, PageDina.class);
         startActivity(intent);
     }
 }
