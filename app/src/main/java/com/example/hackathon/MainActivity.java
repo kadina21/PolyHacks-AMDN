@@ -3,8 +3,6 @@ package com.example.hackathon;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import android.animation.Animator;
-import android.annotation.SuppressLint;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_login_screen);
-        Button btn = findViewById(R.id.loginBut);
-        Button login = findViewById(R.id.SignUp);
+        Button btn = findViewById(R.id.btnDejaInscrit);
+        Button login = findViewById(R.id.btnInscription);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

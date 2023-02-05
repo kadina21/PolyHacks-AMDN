@@ -14,7 +14,7 @@ public class activity_sign_up extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        Button Loginbuton = findViewById(R.id.SignUp);
+        Button Loginbuton = findViewById(R.id.btnInscription);
         Loginbuton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

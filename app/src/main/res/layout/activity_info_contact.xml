@@ -9,13 +9,14 @@
 
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/entreNomContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="330dp"
+        android:ems="10"
+        android:hint="Nom"
         android:inputType="" />
 
 
@@ -28,56 +29,56 @@
         android:layout_marginLeft="5dp"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/nomContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="290dp"
-        android:text="Nom" />
+        android:text="Nom du contact de confiance" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/lienParente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="410dp"
-        android:text="Lien de Parente " />
+        android:text="Lien de parenté " />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/enterLienParente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="440dp"
-        android:text="Entrez le lien de parente" />
+        android:ems="10"
+        android:hint="Lien de parenté"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/enterNumeroContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="550dp"
-        android:text="Entrez le numero"/>
+        android:ems="10"
+        android:hint="Numéro"
+        android:inputType="textPersonName" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/numeroContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="520dp"
-        android:text="Numero" />
+        android:text="Numéro" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnFinInscription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"

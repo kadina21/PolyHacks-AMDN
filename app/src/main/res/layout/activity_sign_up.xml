@@ -38,7 +38,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/enterLastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
@@ -49,7 +49,7 @@
 
 
     <Button
-        android:id="@+id/SignUp"
+        android:id="@+id/btnInscription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="160dp"
@@ -64,7 +64,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/enterMDPInscription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
