@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent,b);
     }
     public void openActivity3() {
-        Intent intent = new Intent(this, PageDina.class);
+        Intent intent = new Intent(this, InfoContact.class);
         Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
         startActivity(intent,b);
     }
