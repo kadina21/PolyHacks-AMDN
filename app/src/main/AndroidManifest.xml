@@ -12,15 +12,14 @@
         android:theme="@style/Theme.Hackathon"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
+
             android:name=".activity_sign_up"
             android:exported="false" />
         <activity
             android:name=".LoginScreen"
             android:exported="false" />
         <activity
-=======
->>>>>>> origin/master
+
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
