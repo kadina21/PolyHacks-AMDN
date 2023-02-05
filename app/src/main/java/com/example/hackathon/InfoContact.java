@@ -14,7 +14,7 @@ public class InfoContact extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info_contact);
-        Button infoContactbtn = findViewById(R.id.button);
+        Button infoContactbtn = findViewById(R.id.btnFinInscription);
         infoContactbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
