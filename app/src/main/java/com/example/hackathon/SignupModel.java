@@ -11,8 +11,7 @@ public class SignupModel {
     private String trustRelationship;
 
 
-    public SignupModel(int id, String firstName, String lastName, String phoneNumber, String password, String trustNumber, String trustName, String trustRelationship){
-        this.id = id;
+    public SignupModel(String firstName, String lastName, String phoneNumber, String password, String trustNumber, String trustName, String trustRelationship){
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;

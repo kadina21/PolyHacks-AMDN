@@ -63,7 +63,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         cv.put(COLUMN_SCAMMER_PHONE_NUMBER, scammerModel.getPhoneNumber());
         long insert = db.insert(SCAMMERS_TABLE, null, cv);
         if(insert == -1){
-            return false
+            return false;
         }else{
             return true;
         }
@@ -86,7 +86,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
         long insert = db.insert(CLIENTS_TABLE, null, cv);
         if(insert == -1){
-            return false
+            return false;
         }else{
             return true;
         }
@@ -101,7 +101,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
         long insert = db.insert(CALLS_TABLE, null, cv);
         if (insert == -1) {
-            return false
+            return false;
         } else {
             return true;
         }
@@ -117,7 +117,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
         long insert = db.insert(SMS_TABLE, null, cv);
         if(insert == -1){
-            return false
+            return false;
         }else{
             return true;
         }
