@@ -2,6 +2,7 @@ package com.example.hackathon;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,6 +25,7 @@ public class activity_sign_up extends AppCompatActivity {
 
     public void openActivity2() {
         Intent intent = new Intent(this, PageDina.class);
-        startActivity(intent);
+        Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        startActivity(intent,b);
     }
 }

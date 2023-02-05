@@ -3,7 +3,9 @@ package com.example.hackathon;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.animation.Animator;
 import android.annotation.SuppressLint;
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -30,16 +32,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivity3();
+
             }
         });
     }
     public void openActivity2() {
         Intent intent = new Intent(this, activity_sign_up.class);
-        startActivity(intent);
+        Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        startActivity(intent,b);
     }
     public void openActivity3() {
         Intent intent = new Intent(this, PageDina.class);
-        startActivity(intent);
+        Bundle b = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        startActivity(intent,b);
     }
 }
 
